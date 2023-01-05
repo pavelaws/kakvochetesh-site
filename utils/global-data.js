@@ -4,7 +4,7 @@ export const getGlobalData = () => {
     : 'Pavel Seraphimov';
   const blogTitle = process.env.BLOG_TITLE
     ? decodeURI(process.env.BLOG_TITLE)
-    : 'blog.pavel.se';
+    : 'Онлайн дневник';
   const footerText = process.env.BLOG_FOOTER_TEXT
     ? decodeURI(process.env.BLOG_FOOTER_TEXT)
     : 'All rights reserved.';
